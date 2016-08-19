@@ -32,7 +32,7 @@ messages = client.receive_message(
 try:
    id = instance_id(messages)
 except KeyError:
-      print "Oops!  That was no valid data. better luck..."
+      print "Oops!  That was no valid data..."
 
 
 if type(id) == type(str()):
